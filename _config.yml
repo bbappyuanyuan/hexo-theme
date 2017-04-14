@@ -489,7 +489,7 @@ three_waves: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: true
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -542,9 +542,13 @@ vendors:
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
-  #three
+  # three
   three:
   three_waves:
+
+  # Internal version: 1.0.0
+  # https://github.com/zproo/canvas-ribbon
+  canvas_ribbon:
 
 
 
