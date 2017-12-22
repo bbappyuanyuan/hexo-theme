@@ -46,11 +46,11 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: true
   # -------------------------------------------------------------
@@ -119,9 +119,10 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/bbappyuanyuan #https://github.com/yourname || github
-  Gmail: mailto:zfyuan.sh@gmail.com
-  163Email: mailto:zfyuan_sh@163.com
+  GitHub: https://github.com/bbappyuanyuan || github #https://github.com/yourname || github
+  Instagram: https://www.instagram.com/ziziiyuan || instagram
+  Gmail: mailto:zfyuan.sh@gmail.com || google
+  163Email: mailto:zfyuan_sh@163.com || envelope-o
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -134,11 +135,6 @@ social:
 
 social_icons:
   enable: true
-  # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Gmail: google
-  163Email: envelope-o
   icons_only: false
   transition: false
 
@@ -193,7 +189,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -276,7 +272,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -292,7 +288,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -304,35 +300,35 @@ font:
 
   # Global font settings used on <body> element.
   global:
-    external: true
+    external: false
     family: Lato
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
-    external: true
+    external: false
     family:
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: true
+    external: false
     family:
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
-    external: true
+    external: false
     family:
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-    size:
+    family: Source Code Pro
+    size: 14
 
 
 # ---------------------------------------------------------------
@@ -352,7 +348,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: e9db1859ae31ed3d4c03ca64c5221ff1
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -464,7 +460,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-111501815-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -711,7 +707,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300
   alpha: 0.6
   zIndex: -1
